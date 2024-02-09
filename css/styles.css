@@ -49,3 +49,26 @@ p {
     font-size: 1.1rem;
   }
 }
+
+/* Icons */
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
+.icon--small {
+  width: 25px;
+  height: 25px;
+}
+
+/* Icon Fonts */
+.fa-brand {
+  align-items: center;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  display: inline-flex;
+  font-size: 1.8rem;
+  height: 35px;
+  justify-content: center;
+  width: 35px;
+}
