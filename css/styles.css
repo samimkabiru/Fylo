@@ -271,7 +271,6 @@ a {
 
 /* Navigation Bar */
 .nav {
-  background: hsl(218 28% 13%);
   display: flex;
   justify-content: space-between;
   align-items: center;
