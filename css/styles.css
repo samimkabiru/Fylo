@@ -233,3 +233,34 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Callouts */
+.callout {
+  background: hsl(217 28% 15%);
+  color: #fff;
+  padding: 3rem;
+  border-radius: 10px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.callout__header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .callout__content {
+    grid-template-columns: 1fr auto;
+  }
+
+  .callout__input {
+    align-self: center;
+  }
+
+  .callout__button {
+    justify-self: start;
+    align-self: center;
+    margin-left: 1rem;
+  }
+}
