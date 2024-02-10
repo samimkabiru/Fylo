@@ -115,3 +115,37 @@ a {
   list-style: none;
   padding-left: 0;
 }
+
+/* Buttons */
+.btn {
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 1rem 0;
+  outline: 0;
+  padding: 1.2rem 3rem;
+  text-align: center;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.btn--primary {
+  background: linear-gradient(to right, hsl(176 68% 40%), hsl(198, 60%, 62%));
+  color: #fff;
+}
+
+.btn--block {
+  width: 100%;
+  display: inline-block;
+}
+
+.btn--stretched {
+  padding: 1rem 4.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.2rem;
+  }
+}
