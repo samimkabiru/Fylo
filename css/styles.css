@@ -139,13 +139,17 @@ a {
   color: #fff;
 }
 
+.btn--primary:hover {
+  background: linear-gradient(to right, hsl(176 68% 60%), hsl(198, 60%, 82%));
+}
+
 .btn--block {
   width: 100%;
   display: inline-block;
 }
 
 .btn--stretched {
-  padding: 1rem 4.5rem;
+  padding: 1.5rem 6rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -305,4 +309,14 @@ a {
 .feature {
   max-width: 800px;
   column-gap: 5rem;
+}
+
+/* Hero */
+.hero {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero__image {
+  width: 100%;
 }
