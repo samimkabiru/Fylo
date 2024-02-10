@@ -72,3 +72,40 @@ p {
   justify-content: center;
   width: 35px;
 }
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 0;
+  border-bottom: 2px solid hsl(176 68% 64%);
+  transition: border 0.3s;
+  font-size: 1.6rem;
+}
+
+.link-arrow a {
+  color: hsl(176 68% 64%);
+}
+
+.link-arrow__icon {
+  margin-left: 5px;
+  transition: margin 0.3s;
+}
+
+.link-arrow:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.link-arrow:hover .link-arrow__icon {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .link-arrow {
+    font-size: 1.3rem;
+  }
+}
