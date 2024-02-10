@@ -300,3 +300,9 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* Features Block */
+.feature {
+  max-width: 800px;
+  column-gap: 5rem;
+}
