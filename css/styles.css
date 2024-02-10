@@ -194,3 +194,27 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* Blocks */
+.block {
+  padding: 4rem 2rem;
+}
+
+.block h1,
+.block h2,
+.block h3 {
+  margin-top: 0;
+}
+
+.block__header {
+  text-align: center;
+}
+
+.block--dark {
+  background: hsl(216 53% 9%);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
