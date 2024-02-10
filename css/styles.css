@@ -320,3 +320,27 @@ a {
 .hero__image {
   width: 100%;
 }
+
+/* Showcase Block */
+.showcase__image {
+  width: 100%;
+}
+
+.showcase__content {
+  margin: 2rem 5rem;
+}
+
+.showcase__heading {
+  font-size: 3.157rem;
+}
+
+.showcase__content p {
+  margin: 1.5rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .showcase__content {
+    text-align: left;
+    align-self: center;
+  }
+}
