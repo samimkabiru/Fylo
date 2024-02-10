@@ -245,7 +245,6 @@ a {
 /* Callouts */
 .callout {
   background: hsl(217 28% 15%);
-  color: #fff;
   padding: 3rem;
   border-radius: 10px;
   max-width: 750px;
@@ -343,4 +342,37 @@ a {
     text-align: left;
     align-self: center;
   }
+}
+
+/* Testimonials */
+.testimonial {
+  background: hsl(219 30% 18%);
+  color: #fff;
+  border-radius: 7px;
+  max-width: 500px;
+}
+
+.testimonial-container {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.testimonial-container .grid {
+  gap: 2rem;
+  position: relative;
+}
+
+.testimonial__header {
+  padding: 2rem;
+}
+
+.testimonial__media {
+  padding: 0 2rem 2rem;
+}
+
+.testimonial-container__quote {
+  position: absolute;
+  top: -43px;
+  z-index: -1;
+  left: 8px;
 }
