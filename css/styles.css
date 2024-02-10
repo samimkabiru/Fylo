@@ -61,6 +61,10 @@ p {
   height: 25px;
 }
 
+.icon--large {
+  width: 100px;
+}
+
 /* Icon Fonts */
 .fa-brand {
   align-items: center;
@@ -262,5 +266,38 @@ a {
     justify-self: start;
     align-self: center;
     margin-left: 1rem;
+  }
+}
+
+/* Navigation Bar */
+.nav {
+  background: hsl(218 28% 13%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__icon {
+  margin-left: 2rem;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.nav__item > a {
+  color: #c2cbcc;
+  transition: all 0.3s;
+}
+
+.nav__item > a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    font-size: 1.2rem;
   }
 }
