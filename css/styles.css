@@ -109,3 +109,9 @@ a {
     font-size: 1.3rem;
   }
 }
+
+/* Lists */
+.list {
+  list-style: none;
+  padding-left: 0;
+}
