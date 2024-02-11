@@ -22,6 +22,7 @@
       src="https://kit.fontawesome.com/c808f58abd.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="header">
@@ -38,7 +39,7 @@
             <li class="nav__item"><a href="#">Sign in</a></li>
           </ul>
         </section>
-        <section class="block container hero">
+        <section class="block container hero" data-aos="fade-up">
           <img src="images/illustration-intro.png" alt="" class="hero__image" />
           <div class="block__header">
             <h1>All your files in one secure location, accessible anywhere.</h1>
@@ -53,7 +54,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="container grid grid--1x2 feature">
+      <section class="container grid grid--1x2 feature" data-aos="zoom-in-up">
         <div class="block">
           <div class="block__header">
             <svg class="icon">
@@ -114,7 +115,7 @@
           </div>
         </div>
       </section>
-      <section class="block container showcase">
+      <section class="block container showcase" data-aos="zoom-in">
         <div class="grid grid--1x2">
           <img
             src="images/illustration-stay-productive.png"
@@ -147,7 +148,7 @@
             src="images/bg-quotes.png"
             alt=""
           />
-          <div class="testimonial">
+          <div class="testimonial" data-aos="fade-right">
             <div class="testimonial__header">
               <p>
                 Fylo has improved our team productivity by an order of
@@ -163,7 +164,7 @@
               </div>
             </div>
           </div>
-          <div class="testimonial">
+          <div class="testimonial" data-aos="fade-up">
             <div class="testimonial__header">
               <p>
                 Fylo has improved our team productivity by an order of
@@ -179,7 +180,7 @@
               </div>
             </div>
           </div>
-          <div class="testimonial">
+          <div class="testimonial" data-aos="fade-left">
             <div class="testimonial__header">
               <p>
                 Fylo has improved our team productivity by an order of
@@ -277,5 +278,9 @@
         </div>
       </footer>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
